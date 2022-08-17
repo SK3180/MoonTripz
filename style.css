@@ -550,7 +550,7 @@ section .title::after{
         .home .home-content a{
             font-size: 20px;
         }
-        .hobbies .Hobb-content .card{
+        .suit .vide-content .card{
             width: 100%;
         }
         .time .max-width img{
@@ -572,19 +572,19 @@ section .title::after{
                 font-size: 27px;
             }
             .suit .max-width .box img{
-                width: 90px;
+                width: 100px;
                 
              
              }
              .time .max-width img{
-                height: 500px;
-                width: 450px;
+                height: 400px;
+                width: 500px;
             
             }
            
                 .about .max-width .column-right iframe{
-                   width: 450px;
-                   height: 305px;
+                   width: 400px;
+                   height: 200px;
                   
                  
                 
@@ -599,6 +599,39 @@ section .title::after{
              
             
         }
+        @media (max-width: 390px) {
+            .about .max-width .column-right iframe{
+                width: 100px;
+                height: 500px;
+               
+              
+             
+             }
+             .suit .max-width .box img{
+                width: 300px;
+                
+             
+             }
+             .time .max-width img{
+                height: 300px;
+                width: 350px;
+            
+            }
+            .about2 .max-width .about-content img{
+                width: 390px;
+            }
+
+        }
+        @media (max-width: 947px) {
+            .about .max-width .column-right iframe{
+                width: 340px;
+                height: 350px;
+               
+              
+             
+             }
+        }
+    
     
     
     
