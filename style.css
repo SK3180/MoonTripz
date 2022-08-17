@@ -391,9 +391,23 @@ section .title::after{
         }
     }
     @media (max-width: 1104px){
-        .about .about-content .left img{
+        .about .about-content .left iframe{
             height: 350px;
-            width: 350px;
+            width: 100%;
+            /* position: relative;
+            left: 10px;
+            top: 10px;
+         */
+        }
+    
+    }
+    @media (max-width: 1104px){
+        .about .about-content .right iframe{
+            height: 350px;
+            width: 100%;
+            /* position: relative;
+            left: 40px;
+            top: 0px; */
         
         }
     
@@ -406,15 +420,15 @@ section .title::after{
     
     @media (max-width: 1104px){
         .time .max-width img{
-            height: 500px;
-            width: 950px;
+            height: auto;
+            width: 100%;
         
         }
     
     }
     @media (max-width: 1104px){
         .about .max-width .column-right{
-           left: 30rem;
+           left: 40rem;
            
         
         }
@@ -422,7 +436,7 @@ section .title::after{
     }
     @media (max-width: 1104px){
         .suit .max-width .box img{
-           width: 250px;
+           width: 100%;
            
         
         }
@@ -430,12 +444,21 @@ section .title::after{
     }
     @media (max-width: 1104px){
         .about .max-width .column-right{
-           width: 510px;
-           height: 385px;
+           width: 100%;
+           height: auto;
            
         
         }
     
+    }
+    @media (max-width: 1104px){
+    .about .max-width .column-right iframe{
+        width: 100%;
+        height: auto;
+       
+      
+     
+     }
     }
     @media (max-width: 947px){
         .menu-btn{
@@ -481,7 +504,7 @@ section .title::after{
         }
              
     .max-width{
-        max-width: 800px;
+        max-width: 100%;
     }
     .max-width{
         max-width: 800px;
@@ -494,10 +517,16 @@ section .title::after{
        justify-content: center;
        margin: 0 auto 60px;
        }
+       .about .about-content .right{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+        }
+
        .about .about-content .right, .about2 .about-content .right{
           flex:100%;
        }
-       .hobbies .Hobb-content .card{
+       .suit .vide-content .card{
            width: calc(50% - 10px);
            margin-bottom: 20px;
     
@@ -514,7 +543,7 @@ section .title::after{
         
         }
         .about2 .max-width .column-right{
-            width: 20px;
+            width: 100%;
             height: 500px;
             
          
@@ -524,15 +553,15 @@ section .title::after{
     }
     @media (max-width: 947px){
         .suit .max-width .box img{
-           width: 170px;
+           width: 100%;
            
         
         }
     }
     @media (max-width: 947px){
         .time .max-width img{
-            height: 500px;
-            width: 700px;
+            height: auto;
+            width: 100%;
         
         }
     
@@ -554,12 +583,12 @@ section .title::after{
             width: 100%;
         }
         .time .max-width img{
-            height: 500px;
-            width: 640px;
+            height: auto;
+            width: 100%;
         
         }
         .suit .max-width .box img{
-            width: 150px;
+            width: 100%;
             
          
          }
@@ -572,25 +601,23 @@ section .title::after{
                 font-size: 27px;
             }
             .suit .max-width .box img{
-                width: 100px;
+                width: 100%;
                 
              
              }
              .time .max-width img{
-                height: 400px;
-                width: 500px;
+                height: auto;
+                width: 100%;
             
             }
            
                 .about .max-width .column-right iframe{
-                   width: 400px;
-                   height: 200px;
-                  
-                 
+                   width: 100%;
+                   height: 300px; 
                 
                 }
                 .about .max-width .column-right{
-                    width: 390px;
+                    width: 100%;
                     height: 305px;
                    
                   
@@ -601,36 +628,38 @@ section .title::after{
         }
         @media (max-width: 390px) {
             .about .max-width .column-right iframe{
-                width: 100px;
-                height: 500px;
+                width: 100%;
+                height: auto;
                
               
              
              }
              .suit .max-width .box img{
-                width: 300px;
+                width: 100%;
+               
                 
              
              }
              .time .max-width img{
-                height: 300px;
-                width: 350px;
+                height: auto;
+                width: 100%;
             
             }
             .about2 .max-width .about-content img{
-                width: 390px;
+                width: 100%;
             }
 
         }
         @media (max-width: 947px) {
             .about .max-width .column-right iframe{
-                width: 340px;
+                width: 100%;
                 height: 350px;
                
               
              
              }
         }
+
     
     
     
